@@ -14,6 +14,8 @@ public void  show(){
         StringBuffer sb=new StringBuffer(m.name);
         sb.append("siuuuu");
         System.out.println(sb);
+        sb.reverse();
+        System.out.println(sb);
         m.show();
     
         
